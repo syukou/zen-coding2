@@ -12,37 +12,42 @@ html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pr
 	outline: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-	background: transparent; }
+	background: transparent;
+}
 
 html {
-	font-size: 62.5%; }
+	font-size: 62.5%;
+}
 
 body {
 	color: #474747;
 	font-size: 12px;
 	font-size: 1.2rem;
 	line-height: 1;
-	font-family:'Lucida Grande',
-	'Hiragino Kaku Gothic ProN', 'ÉqÉâÉMÉmäpÉS ProN W3',
-	Meiryo, 'ÉÅÉCÉäÉI', sans-serif;
+	font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ÉqÉâÉMÉmäpÉS ProN W3', Meiryo, 'ÉÅÉCÉäÉI', sans-serif;
 }
 
 article, aside, dialog, figure, footer, header, hgroup, nav, section {
-	display: block; }
+	display: block;
+}
 
 nav ul {
-	list-style: none; }
+	list-style: none;
+}
 
 blockquote, q {
-	quotes: none; }
+	quotes: none;
+}
 
 blockquote:before, blockquote:after {
 	content: '';
-	content: none; }
+	content: none;
+}
 
 q:before, q:after {
 	content: '';
-	content: none; }
+	content: none;
+}
 
 a {
 	margin: 0;
@@ -54,29 +59,35 @@ a {
 	text-decoration: none;
 	color: #434343;
 	outline: none;
-	text-decoration: none; }
+	text-decoration: none;
+}
 
 ins {
 	background-color: #ff9;
 	color: #000;
-	text-decoration: none; }
+	text-decoration: none;
+}
 
 mark {
 	background-color: #ff9;
 	color: #000;
 	font-style: italic;
-	font-weight: bold; }
+	font-weight: bold;
+}
 
 del {
-	text-decoration: line-through; }
+	text-decoration: line-through;
+}
 
 abbr[title], dfn[title] {
 	border-bottom: 1px dotted #000;
-	cursor: help; }
+	cursor: help;
+}
 
 table {
 	border-collapse: collapse;
-	border-spacing: 0; }
+	border-spacing: 0;
+}
 
 hr {
 	display: block;
@@ -84,29 +95,42 @@ hr {
 	border: 0;
 	border-top: 1px solid #cccccc;
 	margin: 1em 0;
-	padding: 0; }
+	padding: 0;
+}
 
 input, select {
-	vertical-align: middle; }
+	vertical-align: middle;
+}
 
 ul, li {
-	list-style: none; }
+	list-style: none;
+}
+
+img {
+	vertical-align: middle;
+}
 
 a {
-	text-decoration: none; }
+	text-decoration: none;
+}
 
 .cf {
-	display: inline-table; }
+	display: inline-table;
+}
+
 .cf:after {
 	content: ".";
 	display: block;
 	height: 0;
 	clear: both;
-	visibility: hidden; }
+	visibility: hidden;
+}
 
 /* Hides from IE-mac \*/
 * html .cf {
-	height: 1%; }
+	height: 1%;
+}
 
 .cf {
-	display: block; }
+	display: block;
+}

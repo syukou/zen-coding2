@@ -6,7 +6,7 @@
 }
 
 .main {
-	padding: 200px 0;
+	margin: 100px auto;
 }
 
 .cm-postblock {
@@ -16,14 +16,14 @@
 
 .cm-postblock-head {
 	margin-bottom: 60px;
-	font-size: 17px;
-	font-size: 1.7rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 	text-align: center;
 }
 
 .cm-postblock-head span {
 	position: absolute;
-	top: -7px;
+	top: -9px;
 	right: 0;
 	left: 0;
 	margin: auto;
@@ -35,6 +35,7 @@
 .cm-postblock-inner {
 	margin: 0 -15px 0 -15px;
 	padding: 0 90px;
+	overflow: hidden;
 }
 
 /*
@@ -45,6 +46,102 @@ header
 .header {
 	position: relative;
 }
+
+.header-logos {
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.header-logos-inner {
+	position: relative;
+	height: 210px;
+}
+
+.header-logos-img {
+	position: absolute;
+	left: 0px;
+	top: 30px;
+}
+
+.header-logos-img a {
+	display: block;
+	float: left;
+	width: 388;
+	height: 140px;
+}
+
+.header-logos-nav {
+	float: right;
+}
+
+.header-logos-nav ul {
+	border-left: 1px solid #bbbbbb;
+	border-right: 1px solid #bbbbbb;
+}
+
+.header-logos-nav ul li {
+	float: left;
+	width: 150px;
+	height: 210px;
+}
+
+.header-logos-nav ul li + li {
+	border-left: 1px solid #bbbbbb;
+}
+
+.header-logos-nav ul li a,
+.header-logos-nav ul li span {
+	position: relative;
+	display: block;
+	width: 150px;
+	height: 210px;
+}
+
+.header-logos-nav ul li a:after,
+.header-logos-nav ul li span:after {
+	content: "";
+	position: absolute;
+	left: 59px;
+	bottom: 50px;
+	width: 30px;
+	height: 30px;
+	background: url(../img/icon/icon_gnav.svg) no-repeat;
+	background-size: 30px 30px;
+}
+
+.header-logos-nav ul li span {
+	color: #ededed;
+}
+
+.header-logos-nav ul li a:hover,
+.header-logos-nav ul li a.current {
+	background: url(../img/bg_stripe.svg);
+}
+
+.header-logos-nav-list-inner {
+	position: absolute;
+	top: -30px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 150px;
+	height: 31px;
+	margin: auto;
+	text-align: center;
+	font-family: 'Raleway';
+}
+
+.header-logos-nav-list-head {
+	font-size: 13px;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.header-logos-nav-list-ruby {
+	margin-top: 10px;
+	font-size: 10px;
+	font-size: 1rem;
+}
+
 
 /*
 //////////////////////////////////////////////////////////////////////
@@ -58,7 +155,7 @@ kv
 
 .kv-outer {
 	position: relative;
-	height: 400px;
+	height: 500px;
 	overflow: hidden;
 }
 
@@ -85,7 +182,7 @@ kv
 	position: absolute;
 	top: 0;
 	width: 100%;
-	height: 403px;
+	height: 500px;
 	background: rgba(0, 0, 0, 0.7);
 }
 

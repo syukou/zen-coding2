@@ -35,7 +35,7 @@ TENSHIN.TOP.TOP_CAROUSEL = {
 
 		$('#jsi-carousel-container').css('margin-left', '0');
 
-		this.$kvContainer.children('li').each(function(){ //children‚¶‚á‚È‚¢‚ÆƒGƒ‰[
+		this.$kvContainer.children('li').each(function(){ //childrenã˜ã‚ƒãªã„ã¨ã‚¨ãƒ©ãƒ¼
 			$(this).clone().appendTo(myself.$kvContainer);
 		});
 
