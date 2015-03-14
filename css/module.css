@@ -94,3 +94,33 @@
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
+
+.postSocial li {
+	display: inline-block;
+	letter-spacing: normal;
+	margin-right: 21px;
+}
+
+.postSocial__list {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	z-index: 30;
+	overflow: hidden;
+}
+
+.postSocial__list-number {
+	display: block;
+	float: left;
+}
+
+.postSocial__list-facebook {
+	display: block;
+	float: left;
+	width: 25px;
+	height: 25px;
+	background: url(../img/icon/icon_facebook.svg) no-repeat;
+	background-size: 25px 25px;
+}
+
+
