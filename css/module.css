@@ -8,7 +8,7 @@
 
 .postlist {
 	float: left;
-	width: 320px;
+	width: 340px;
 	padding: 0 15px 40px;
 }
 
@@ -21,7 +21,7 @@
 }
 .postlist a:hover .postlist__head,
 .postlist a:hover .postlist__desc {
-	color: #00a9c7;
+	color:#0096b4;
 }
 
 .postlist a:hover .postlist__info--mask {
@@ -62,7 +62,7 @@
 
 .postlist__body {
 	padding-bottom: 20px;
-	border-bottom: 3px solid #ccc;
+	background:url(../img/list_border.png) no-repeat left bottom;
 }
 
 .postlist__desc {
@@ -95,32 +95,44 @@
 	transition: opacity 0.35s;
 }
 
-.postSocial li {
-	display: inline-block;
-	letter-spacing: normal;
-	margin-right: 21px;
+.postSocial__list {
+	display:table;
+	float:left;
+	z-index: 30;
 }
 
-.postSocial__list {
-	display: inline-block;
+.postSocial__list + .postSocial__list {
+	margin-left: 20px;
+}
+
+.postSocial__list-facebook,
+.postSocial__list-twitter,
+.postSocial__list-hatena {
+	display: table-cell;
+	float: left;
 	width: 25px;
 	height: 25px;
-	z-index: 30;
-	overflow: hidden;
-}
-
-.postSocial__list-number {
-	display: block;
-	float: left;
+	padding-right:5px;
 }
 
 .postSocial__list-facebook {
-	display: block;
-	float: left;
-	width: 25px;
-	height: 25px;
 	background: url(../img/icon/icon_facebook.svg) no-repeat;
 	background-size: 25px 25px;
+}
+
+.postSocial__list-twitter {
+	background: url(../img/icon/icon_twitter.svg) no-repeat;
+	background-size: 25px 25px;
+}
+
+.postSocial__list-hatena {
+	background: url(../img/icon/icon_google.svg) no-repeat;
+	background-size: 25px 25px;
+}
+
+.postSocial__list-number {
+	display:table-cell;
+	vertical-align: middle;
 }
 
 

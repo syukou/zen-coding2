@@ -12,7 +12,7 @@
 .cm-postblock {
     position: relative;
 	padding: 60px 0 60px;
-    background: url(../img/content_border_top.png) no-repeat top left;
+    background: url(../img/content_border.png) no-repeat top left;
 
 }
 
@@ -24,7 +24,7 @@
 
 .cm-postblock-head span {
     position: absolute;
-    top: -9px;
+    top: -5px;
     right: 0;
     left: 0;
     margin: auto;
@@ -35,7 +35,7 @@
 
 .cm-postblock-inner {
     margin: 0 -15px 0 -15px;
-    padding: 0 90px;
+    padding: 0 60px;
     overflow: hidden;
 }
 
@@ -58,16 +58,16 @@ header
 }
 
 .header-logos-img {
-    position: absolute;
-    left: 0px;
-    top: 30px;
+	position: absolute;
+	left: 20px;
+	top: 60px;
 }
 
 .header-logos-img a {
     display: block;
     float: left;
-    width: 388;
-    height: 140px;
+    width: 300px;
+    height: 80px;
 }
 
 .header-logos-nav {
