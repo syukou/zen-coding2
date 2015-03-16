@@ -8,12 +8,23 @@
 
 .main-contents {
 	position:relative;
+	overflow:hidden;
+}
+
+.cm-contents-left {
+	float:left;
+	width:270px;
+}
+
+.cm-contents-right {
+	float:left;
+	width:198px;
 }
 
 .post {
+	float:left;
 	width:650px;
-	margin:0 auto;
-	padding-left:100px;
+	margin:0 40px 0 40px;
 }
 
 .post-head {
@@ -235,21 +246,19 @@ sideBox
 */
 
 .cm-categorybox {
-	position: fixed;
+	position: static;
 	top: -525px;
 	left: auto;
 	width: 270px;
 	height: 396px;
-	margin: 15px 0 0 0;
 }
 
 .cm-socialbox {
-	position: fixed;
-	top: -541px;
+	position: static;
+	top: 0;
 	left: auto;
 	width: 198px;
 	height: 541px;
-	margin-left: 1030px;
 	background: url(../img/parts/syamoji.svg) no-repeat scroll left top / 198px 541px transparent;
 }
 
