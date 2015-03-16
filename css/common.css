@@ -209,3 +209,41 @@ kv
 .kv-next {
 	right:0;
 }
+
+
+/*
+///////////////////////////////////////
+pageToTop
+///////////////////////////////////////
+*/
+.btn-pagetotop {
+	display: none;
+	position: absolute;
+	right: 50px;
+	bottom: 80px;
+	width: 60px;
+	height: 60px;
+	z-index: 300; }
+
+.btn-pagetotop a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #000000;
+	text-indent: -9999px; }
+
+.btn-pagetotop a:after {
+	border-left: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+	position: absolute;
+	top: 26px;
+	left: 21px;
+	display: block;
+	content: "";
+	width: 17px;
+	height: 17px;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	transform: rotate(45deg); }

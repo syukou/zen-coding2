@@ -6,9 +6,14 @@
 ///////////////////////////////////////
 */
 
+.main-contents {
+	position:relative;
+}
+
 .post {
-	width:660px;
+	width:650px;
 	margin:0 auto;
+	padding-left:100px;
 }
 
 .post-head {
@@ -80,7 +85,8 @@
 	padding-left:20px;
 	font-size:15px;
 	font-size:1.5em;
-	background:#ffdc04;
+	background:#303030;
+	/*background:#ffdc04;*/
 }
 
 .post-body h2 span {
@@ -220,4 +226,123 @@
 	color:#000000;
 	font-size:50px;
 	font-size:5rem;
+}
+
+/*
+///////////////////////////////////////
+sideBox
+///////////////////////////////////////
+*/
+
+.cm-categorybox {
+	position: fixed;
+	top: -525px;
+	left: auto;
+	width: 270px;
+	height: 396px;
+	margin: 15px 0 0 0;
+}
+
+.cm-socialbox {
+	position: fixed;
+	top: -541px;
+	left: auto;
+	width: 198px;
+	height: 541px;
+	margin-left: 1030px;
+	background: url(../img/parts/syamoji.svg) no-repeat scroll left top / 198px 541px transparent;
+}
+
+.main-side-category-head {
+	padding:15px;
+	color:#ffffff;
+	background-color:#303030;
+	font-size:16px;
+	font-size:1.6rem;
+	font-weight:bold;
+}
+
+.sideList__head {
+	padding:15px 15px 15px 0;
+	border-top:3px solid #85A063;
+	border-bottom:3px solid #85A063;
+	color:#ffffff;
+	font-size:16px;
+	font-size:1.6rem;
+	font-weight:bold;
+}
+
+.sideList__body li {
+	border-bottom:1px dashed #B3B3B3;
+}
+
+.sideList__body li a {
+	position:relative;
+	display:block;
+	padding:17px 20px 17px 20px;
+	font-size:15px;
+	font-size:1.5rem;
+	-webkit-transition:background-color 0.3s;
+	-ms-transition:background-color 0.3s;
+	-moz-transition:background-color 0.3s;
+	transition:background-color 0.3s;
+	font-family:'Raleway';
+}
+
+.sideList__body li a:after {
+	content:"";
+	position:absolute;
+	right:20px;
+	top:25px;
+	width:8px;
+	height:8px;
+	margin-top:-5px;
+	border-top:1px solid #888888;
+	border-right:1px solid #888888;
+	-webkit-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+
+.sideList__body li a:hover {
+	background-color:#d8d8d8;
+}
+
+.main-side-left > section + section {
+	margin-top:50px;
+}
+
+/*  socialArea  */
+
+.social__head {
+	position: absolute;
+	left: 47px;
+	bottom: 170px;
+}
+
+.social {
+	position: absolute;
+	left: 18px;
+	bottom: 30px;
+	width: 170px;
+	padding: 20px 13px;
+	box-sizing: border-box;
+}
+
+.social__list > li {
+	float: left;
+}
+
+.social__list--twitter {
+	margin-right: 7px;
+}
+
+.social__list--hatena {
+	margin-top: 10px;
+	margin-right: 8px;
+}
+
+.social__list--gplus {
+	margin-top: 10px;
 }

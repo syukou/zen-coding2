@@ -76,6 +76,21 @@
 	transition:color 0.35s;
 }
 
+.postlist__class-date {
+	float:left;
+	color:#515151;
+	line-height:22px;
+	vertical-align:bottom;
+}
+
+.postlist__class-cat {
+	float: right;
+	padding: 5px 10px;
+	color: #ffffff;
+	font-weight:bold;
+	background-color: #000000;
+}
+
 /*
 ///////////////////////////////////////
  postSocialList
